@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://refresh-by-miriam.netlify.app/sitemap.xml

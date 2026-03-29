@@ -1,0 +1,14 @@
+{
+  "name": "Refresh by Miriam",
+  "short_name": "Refresh",
+  "icons": [
+    {
+      "src": "/assets/icons/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#f7d6d8",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

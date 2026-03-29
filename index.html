@@ -3,264 +3,325 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Refresh by Miriam – UCLA-focused cleaning and organizing for dorms and nearby apartments, plus special-request home projects." />
-  <title>Refresh by Miriam | Cleaning & Organizing</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta
+    name="description"
+    content="Refresh by Miriam — UCLA-focused cleaning and organizing for dorms and nearby apartments, plus special-request home projects."
+  />
+  <title>Refresh by Miriam | Cleaning &amp; Organizing</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+  <link rel="shortcut icon" href="assets/icons/favicon.svg" />
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.svg" />
+  <link rel="manifest" href="assets/icons/site.webmanifest" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
+  <!-- ===== Header / Navigation ===== -->
+  <header>
+    <nav aria-label="Main navigation">
+      <span class="nav-logo">
+        <img src="assets/images/Refresh.png" alt="Refresh by Miriam" />
+      </span>
 
-  <!-- ===== NAVIGATION ===== -->
-  <nav aria-label="Main navigation">
-    <span class="nav-logo">Refresh by Miriam</span>
-    <button class="hamburger" aria-label="Toggle menu" aria-expanded="false" id="hamburger">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-    <ul class="nav-links" id="nav-links" role="list">
-      <li><a href="#services">Services</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#why-refresh">Why Refresh</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
-  <!-- ===== HERO ===== -->
-  <section id="hero" aria-label="Welcome">
-    <div class="hero-content">
-      <span class="hero-badge">✨ UCLA Dorm &amp; Apartment Cleaning</span>
-      <h1>Cleaning &amp; Organizing for <span>UCLA</span><br>Dorms and Apartments</h1>
-      <p>Refresh by Miriam helps UCLA students and nearby renters reset their spaces with reliable dorm cleaning, apartment cleaning, and organizing support.</p>
-      <div class="hero-ctas">
-        <a href="#contact" class="btn btn-primary">Book Your UCLA Clean</a>
-        <a href="#services" class="btn btn-outline">Explore Services</a>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#why-refresh">Why Refresh</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section id="hero" aria-label="Welcome">
+      <div class="hero-content">
+        <span class="hero-badge">✨ Your Space, Refreshed and Ready to Shine</span>
+        <h1>Cleaning &amp; Organizing for <span>UCLA</span><br />Dorms and Apartments</h1>
+        <p>
+          Refresh by Miriam helps UCLA students and nearby renters reset their spaces with
+          reliable dorm cleaning, apartment cleaning, and organizing support.
+        </p>
+
+        <div class="hero-ctas">
+          <a href="#contact" class="btn btn-primary">Book Your UCLA Clean</a>
+          <a href="#services" class="btn btn-outline">Explore Services</a>
+        </div>
+
+        <div class="hero-scroll" aria-hidden="true">Scroll</div>
       </div>
-      <div class="hero-scroll" aria-hidden="true">Scroll</div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== SERVICES ===== -->
-  <section id="services" aria-label="Services">
-    <div class="section-header">
-      <span class="section-tag">What I Offer</span>
-      <h2>Services for UCLA Students &amp; Renters</h2>
-      <p>Choose the support you need for your dorm, apartment, or organizing reset.</p>
-    </div>
+    <!-- ===== Services ===== -->
+    <section id="services" aria-label="Services">
+      <div class="section-header">
+        <span class="section-tag">What I Offer</span>
+        <h2>Services for UCLA Students &amp; Renters</h2>
+        <p>Choose the support you need for your dorm, apartment, or organizing reset.</p>
+      </div>
 
-    <div class="services-grid">
+      <div class="services-grid">
+        <article class="service-card">
+          <span class="service-icon" aria-hidden="true">🏠</span>
+          <h3>Dorm Cleaning</h3>
+          <p>Ideal for UCLA students who want a cleaner, calmer room for studying and recharging.</p>
+          <ul>
+            <li>Dusting &amp; surface wipe-downs</li>
+            <li>Vacuuming &amp; floor mopping</li>
+            <li>Trash removal &amp; recycling</li>
+            <li>Bathroom sanitizing</li>
+          </ul>
+        </article>
 
-      <article class="service-card">
-        <span class="service-icon" aria-hidden="true">🏠</span>
-        <h3>Dorm Cleaning</h3>
-        <p>Ideal for UCLA students who want a cleaner, calmer room for studying and recharging.</p>
-        <ul>
-          <li>Dusting &amp; surface wipe-downs</li>
-          <li>Vacuuming &amp; floor mopping</li>
-          <li>Trash removal &amp; recycling</li>
-          <li>Bathroom sanitizing</li>
-        </ul>
-      </article>
+        <article class="service-card">
+          <span class="service-icon" aria-hidden="true">🧼</span>
+          <h3>Apartment Cleaning</h3>
+          <p>Routine or detailed apartment cleaning for UCLA-area renters and shared units.</p>
+          <ul>
+            <li>Kitchen and bathroom refresh</li>
+            <li>Living areas and bedroom cleaning</li>
+            <li>Floors, surfaces, and touchpoints</li>
+            <li>Move-in or move-out reset support</li>
+          </ul>
+        </article>
 
-      <article class="service-card">
-        <span class="service-icon" aria-hidden="true">🧼</span>
-        <h3>Apartment Cleaning</h3>
-        <p>Routine or detailed apartment cleaning for UCLA-area renters and shared units.</p>
-        <ul>
-          <li>Kitchen and bathroom refresh</li>
-          <li>Living areas and bedroom cleaning</li>
-          <li>Floors, surfaces, and touchpoints</li>
-          <li>Move-in or move-out reset support</li>
-        </ul>
-      </article>
+        <article class="service-card">
+          <span class="service-icon" aria-hidden="true">🗂️</span>
+          <h3>Organizing &amp; Reset Services</h3>
+          <p>
+            Get practical organizing help that makes daily routines simpler and your space easier to
+            maintain.
+          </p>
+          <ul>
+            <li>Desk and study-zone organization</li>
+            <li>Closet and storage reset</li>
+            <li>Kitchen and bathroom organization</li>
+            <li>Declutter and donation prep</li>
+          </ul>
+        </article>
 
-      <article class="service-card">
-        <span class="service-icon" aria-hidden="true">🗂️</span>
-        <h3>Organizing &amp; Reset Services</h3>
-        <p>Get practical organizing help that makes daily routines simpler and your space easier to maintain.</p>
-        <ul>
-          <li>Desk and study-zone organization</li>
-          <li>Closet and storage reset</li>
-          <li>Kitchen and bathroom organization</li>
-          <li>Declutter and donation prep</li>
-        </ul>
-      </article>
+        <article class="service-card service-card-wide">
+          <span class="service-icon" aria-hidden="true">⭐</span>
+          <div class="content">
+            <h3>Special Requests</h3>
+            <p>
+              Need something beyond standard service? Larger home-cleaning projects are available by
+              special request.
+            </p>
+            <ul>
+              <li>Larger home-cleaning projects</li>
+              <li>Custom quote after consultation</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
 
-      <article class="service-card service-card-wide">
-        <span class="service-icon" aria-hidden="true">⭐</span>
-        <h3>Special Requests</h3>
-        <p>Need something beyond standard service? Larger home-cleaning projects are available by special request.</p>
-        <ul>
-          <li>Larger home-cleaning projects</li>
-          <li>Custom quote after consultation</li>
-        </ul>
-      </article>
+    <!-- ===== About ===== -->
+    <section id="about" aria-label="About Miriam">
+      <div class="about-inner">
+        <div class="about-visual">
+          <div class="about-blob">
+            <img src="assets/images/miriam.png" alt="Miriam" class="about-photo" />
+          </div>
+          <div class="about-badge" aria-label="UCLA-focused service">
+            <span>UCLA</span>
+            Focused Service
+          </div>
+        </div>
 
-    </div>
-  </section>
-
-  <!-- ===== ABOUT ===== -->
-  <section id="about" aria-label="About Miriam">
-    <div class="about-inner">
-
-      <div class="about-visual">
-        <div class="about-blob" aria-hidden="true">🌸</div>
-        <div class="about-badge" aria-label="UCLA-focused service">
-          <span>UCLA</span>
-          Focused Service
+        <div class="about-text">
+          <span class="section-tag">About Miriam</span>
+          <h2>A Calm, Practical Approach to Student Living</h2>
+          <p>
+            Hi, I'm Miriam! I started <b>Refresh</b> to provide thoughtful cleaning and organizing
+            support for UCLA students and nearby renters.
+          </p>
+          <p>
+            From shared dorm spaces to busy apartment routines, I focus on dependable service,
+            attention to detail, and a space that feels easier to live in.
+          </p>
+          <p>
+            Every visit is tailored to your layout, priorities, and schedule, with straightforward
+            communication from booking to completion.
+          </p>
         </div>
       </div>
+    </section>
 
-      <div class="about-text">
-        <span class="section-tag">About Miriam</span>
-        <h2>A Calm, Practical Approach to Student Living</h2>
-        <p>Hi, I'm Miriam. I started <b>Refresh</b> to provide thoughtful cleaning and organizing support for UCLA students and nearby renters.</p>
-        <p>From shared dorm spaces to busy apartment routines, I focus on dependable service, attention to detail, and a space that feels easier to live in.</p>
-        <p>Every visit is tailored to your layout, priorities, and schedule, with straightforward communication from booking to completion.</p>
+    <!-- ===== Why Refresh ===== -->
+    <section id="why-refresh" aria-label="Why Refresh by Miriam">
+      <div class="section-header">
+        <span class="section-tag">Why Refresh by Miriam</span>
+        <h2>Simple, Reliable Support</h2>
+        <p>A thoughtful cleaning experience designed to fit student and renter life.</p>
       </div>
 
-    </div>
-  </section>
+      <div class="testimonials-grid why-grid">
+        <article class="testimonial-card why-card">
+          <h3>Student-Friendly Scheduling</h3>
+          <p>Booking windows are flexible around classes, exams, and busy apartment schedules.</p>
+        </article>
 
-  <!-- ===== WHY REFRESH ===== -->
-  <section id="why-refresh" aria-label="Why Refresh by Miriam">
-    <div class="section-header">
-      <span class="section-tag">Why Refresh by Miriam</span>
-      <h2>Built Around UCLA Student &amp; Renter Needs</h2>
-      <p>Simple, supportive service designed for real dorm and apartment life.</p>
-    </div>
+        <article class="testimonial-card why-card">
+          <h3>Dependable, Detailed Care</h3>
+          <p>
+            Every visit is handled with consistency, clear communication, and close attention to
+            detail.
+          </p>
+        </article>
 
-    <div class="testimonials-grid">
-
-      <article class="testimonial-card">
-        <h3>Dorm-Friendly Support</h3>
-        <p>Focused on dorm cleaning and organizing that helps you study, rest, and reset without added stress.</p>
-      </article>
-
-      <article class="testimonial-card">
-        <h3>Apartment-Renter Ready</h3>
-        <p>Great for UCLA-area apartments, shared leases, move-ins, and move-outs where reliable help matters.</p>
-      </article>
-
-      <article class="testimonial-card">
-        <h3>Organizing That Lasts</h3>
-        <p>Practical reset services that make your room or apartment easier to keep clean week after week.</p>
-      </article>
-
-      <article class="testimonial-card">
-        <h3>Flexible Special Requests</h3>
-        <p>Larger home-cleaning projects are available by special request when your needs go beyond standard service.</p>
-      </article>
-
-    </div>
-  </section>
-
-  <!-- ===== CONTACT ===== -->
-  <section id="contact" aria-label="Contact and booking">
-    <div class="contact-inner">
-
-      <div class="contact-info">
-        <span class="section-tag">Get In Touch</span>
-        <h2>Ready to Refresh Your Space?</h2>
-        <p>Fill out the form and I'll be in touch within 24 hours to confirm your booking and answer any questions.</p>
-
-        <ul class="contact-details">
-          <li>
-            <div class="icon" aria-hidden="true">📍</div>
-            <span>Serving UCLA and nearby apartment communities</span>
-          </li>
-          <li>
-            <div class="icon" aria-hidden="true">📧</div>
-            <span>hello@refreshbymiriam.com</span>
-          </li>
-          <li>
-            <div class="icon" aria-hidden="true">📱</div>
-            <span>Available Mon – Sat, 8 am – 6 pm</span>
-          </li>
-        </ul>
+        <article class="testimonial-card why-card">
+          <h3>Flexible Custom Support</h3>
+          <p>
+            Need something outside a standard visit? Custom requests can be scoped to your space
+            and priorities.
+          </p>
+        </article>
       </div>
+    </section>
 
-      <div>
-        <form class="contact-form" id="contact-form" name="contact" method="POST" action="/?success=1#contact" netlify data-netlify="true" aria-label="Booking request form">
-          <input type="hidden" name="form-name" value="contact" />
-          <div class="form-group">
-            <label for="name">Your Name</label>
-            <input type="text" id="name" name="name" placeholder="Jane Smith" required autocomplete="name" />
-          </div>
+    <!-- ===== Contact ===== -->
+    <section id="contact" aria-label="Contact and booking">
+      <div class="contact-inner">
+        <div class="contact-info">
+          <span class="section-tag">Get In Touch</span>
+          <h2>Ready to Refresh Your Space?</h2>
+          <p class="contact-intro">
+            Fill out the form and I&rsquo;ll get back to you within 24 hours to confirm details and
+            availability.
+          </p>
+          <p class="contact-reassurance">No commitment, just a quick response.</p>
 
-          <div class="form-group">
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" placeholder="jane@example.com" required autocomplete="email" />
-          </div>
+          <ul class="contact-details">
+            <li>
+              <div class="icon" aria-hidden="true">📍</div>
+              <span>Serving UCLA and nearby apartment communities</span>
+            </li>
+            <li>
+              <div class="icon" aria-hidden="true">📧</div>
+              <div class="contact-email-row">
+                <span id="contact-email">hello@refreshbymiriam.com</span>
+                <button
+                  type="button"
+                  class="copy-email-btn"
+                  id="copy-email-btn"
+                  aria-label="Copy email address"
+                  title="Copy email"
+                >
+                  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path d="M16 1H6a2 2 0 0 0-2 2v12h2V3h10V1zm3 4H10a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm0 16H10V7h9v14z"/>
+                  </svg>
+                </button>
+              </div>
+            </li>
+            <li>
+              <div class="icon" aria-hidden="true">📱</div>
+              <span>Available Mon – Sat, 8 am – 6 pm</span>
+            </li>
+          </ul>
+        </div>
 
-          <div class="form-group">
-            <label for="phone">Phone Number <span class="form-label-optional">(optional)</span></label>
-            <input type="tel" id="phone" name="phone" placeholder="(555) 000-0000" autocomplete="tel" />
-          </div>
+        <div>
+          <form
+            class="contact-form"
+            id="contact-form"
+            name="contact"
+            method="POST"
+            action="/?success=1#contact"
+            netlify
+            data-netlify="true"
+            aria-label="Booking request form"
+          >
+            <input type="hidden" name="form-name" value="contact" />
 
-          <div class="form-group">
-            <label for="service">Service Interested In</label>
-            <select id="service" name="service" required>
-              <option value="" disabled selected>Select a service…</option>
-              <option value="dorm">Dorm Cleaning</option>
-              <option value="apartment">Apartment Cleaning</option>
-              <option value="organizing-reset">Organizing &amp; Reset Services</option>
-              <option value="special-requests">Special Requests</option>
-              <option value="other">Other / Not Sure</option>
-            </select>
-          </div>
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Smith" required autocomplete="name" />
+            </div>
 
-          <div class="form-group">
-            <label for="message">Tell Me More</label>
-            <textarea id="message" name="message" placeholder="Describe your space, any special requests, or your preferred dates…"></textarea>
-          </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="jane@example.com" required autocomplete="email" />
+            </div>
 
-          <button type="submit" class="btn btn-primary form-submit">Send My Request ✨</button>
-        </form>
-        <p class="form-success" id="form-success" role="alert">🌸 Thank you! I'll be in touch within 24 hours.</p>
+            <div class="form-group">
+              <label for="phone">Phone Number <span class="form-label-optional">(optional)</span></label>
+              <div class="phone-input-row">
+                <input
+                  type="text"
+                  id="phone-extension"
+                  name="phone_extension"
+                  class="phone-extension"
+                  value="+1"
+                  placeholder="+1"
+                  inputmode="tel"
+                  maxlength="4"
+                  aria-label="Country code"
+                />
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  class="phone-main"
+                  placeholder="(555) 000-0000"
+                  autocomplete="tel"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="service">Service Interested In</label>
+              <select id="service" name="service" required>
+                <option value="" disabled selected>Select a service…</option>
+                <option value="dorm">Dorm Cleaning</option>
+                <option value="apartment">Apartment Cleaning</option>
+                <option value="organizing-reset">Organizing &amp; Reset Services</option>
+                <option value="special-requests">Special Requests</option>
+                <option value="other">Other / Not Sure</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Tell Me More</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Describe your space, any special requests, or your preferred dates…"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary form-submit">Send My Request ✨</button>
+          </form>
+
+          <p class="form-success" id="form-success" role="alert">
+            🌸 Thank you! I'll be in touch within 24 hours.
+          </p>
+        </div>
       </div>
+    </section>
+  </main>
 
-    </div>
-  </section>
-
-  <!-- ===== FOOTER ===== -->
+  <!-- ===== Footer ===== -->
   <footer>
-    <div class="footer-logo">Refresh by Miriam</div>
-    <p>Professional cleaning &amp; organizing — bringing calm to your space.</p>
-    <p style="margin-top:0.75rem">&copy; <span id="year"></span> Refresh by Miriam. Made with 🌸</p>
+    <div class="footer-logo">
+      <img src="assets/images/Refresh.png" alt="Refresh by Miriam" />
+    </div>
+    <p>Professional cleaning &amp; organizing. Bringing calm to your space.</p>
+    <p id="last-updated" style="margin-top: 0.5rem"></p>
+    <p style="margin-top: 0.75rem">&copy; <span id="year"></span> Refresh by Miriam. Made with 🌸</p>
   </footer>
 
-  <!-- ===== SCRIPTS ===== -->
-  <script>
-    // Auto-update copyright year
-    document.getElementById('year').textContent = new Date().getFullYear();
-
-    // Mobile hamburger menu
-    const hamburger = document.getElementById('hamburger');
-    const navLinks  = document.getElementById('nav-links');
-
-    hamburger.addEventListener('click', () => {
-      const isOpen = navLinks.classList.toggle('open');
-      hamburger.setAttribute('aria-expanded', isOpen);
-    });
-
-    // Close mobile menu when a link is clicked
-    navLinks.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', () => {
-        navLinks.classList.remove('open');
-        hamburger.setAttribute('aria-expanded', 'false');
-      });
-    });
-
-    // Contact form success state after Netlify redirect
-    const form    = document.getElementById('contact-form');
-    const success = document.getElementById('form-success');
-
-    const params = new URLSearchParams(window.location.search);
-    if (params.get('success') === '1') {
-      form.style.display = 'none';
-      success.style.display = 'block';
-    }
-  </script>
-
+  <!-- Scripts -->
+  <script src="assets/js/main.js" defer></script>
 </body>
 </html>
