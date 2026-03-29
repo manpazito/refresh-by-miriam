@@ -180,7 +180,8 @@
       </div>
 
       <div>
-        <form class="contact-form" id="contact-form" aria-label="Booking request form">
+        <form class="contact-form" id="contact-form" name="contact" method="POST" action="/?success=1#contact" netlify data-netlify="true" aria-label="Booking request form">
+          <input type="hidden" name="form-name" value="contact" />
           <div class="form-group">
             <label for="name">Your Name</label>
             <input type="text" id="name" name="name" placeholder="Jane Smith" required autocomplete="name" />
@@ -250,22 +251,15 @@
       });
     });
 
-    // Contact form – simple client-side feedback
+    // Contact form success state after Netlify redirect
     const form    = document.getElementById('contact-form');
     const success = document.getElementById('form-success');
 
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
-
-      if (!form.checkValidity()) {
-        form.reportValidity();
-        return;
-      }
-
-      // Show success message (replace with real submission logic as needed)
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('success') === '1') {
       form.style.display = 'none';
       success.style.display = 'block';
-    });
+    }
   </script>
 
 </body>
