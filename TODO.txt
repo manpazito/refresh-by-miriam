@@ -1,0 +1,4 @@
+For the future we need:
+robots.txt + sitemap.xml
+
+Google indexing
