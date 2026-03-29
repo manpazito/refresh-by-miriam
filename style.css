@@ -358,6 +358,10 @@ section {
   left: 0;
 }
 
+.service-card-wide {
+  grid-column: 1 / -1;
+}
+
 /* --- About --- */
 #about {
   background: var(--white);
